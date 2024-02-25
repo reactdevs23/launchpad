@@ -1,0 +1,108 @@
+.dexBox {
+  border-radius: 20px;
+  border: 1px solid var(--Base-300);
+  background: var(--Base-400);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.dexHeader {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cardContent {
+  padding: 0 15px;
+}
+
+.dexListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px 0;
+  border-top: 1px solid var(--Base-300);
+  border-bottom: 1px solid var(--Base-300);
+}
+.dexListItem .value {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: auto;
+}
+.dexListItemHeader {
+  align-items: flex-start;
+}
+.securityItem {
+  padding: 6px 0;
+}
+
+.icon {
+  width: 18px;
+}
+.copyIcon {
+  width: 18px;
+  color: var(--Base-50);
+  cursor: pointer;
+}
+.securityItem .icon {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+}
+.plusSecurityContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 3px;
+  padding: 25px 0;
+}
+
+.securityIcon {
+  width: 25px;
+}
+
+.moreInfo {
+  color: var(--Primary-Default);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.857%;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-top: 12px;
+}
+@media only screen and (max-width: 767px) {
+  .dexBox {
+    padding: 12px 0px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .address {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .dexTitle,
+  .dexTime {
+    font-size: 18px;
+  }
+  .dexHeader,
+  .cardContent {
+    padding: 12px 10px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .dexTitle,
+  .dexTime {
+    font-size: 16px;
+  }
+}

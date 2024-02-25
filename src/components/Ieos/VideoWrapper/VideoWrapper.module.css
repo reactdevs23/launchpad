@@ -1,0 +1,15 @@
+.playerWrapper {
+  position: relative;
+
+  padding-top: 56.25%;
+  border-radius: 12px; /* Add border radius */
+  overflow: hidden;
+  /* 16:9 aspect ratio (change this value according to your desired aspect ratio) */
+}
+
+.reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+}

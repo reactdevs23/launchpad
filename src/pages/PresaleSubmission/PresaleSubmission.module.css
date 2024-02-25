@@ -1,0 +1,22 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}

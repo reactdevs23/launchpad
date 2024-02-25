@@ -1,0 +1,29 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.imgContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.img {
+  max-width: 470px;
+  width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .left {
+    align-items: center;
+  }
+}

@@ -1,0 +1,80 @@
+.tokenContainer {
+  border-radius: 20px;
+  border: 1px solid var(--Base-300);
+  background: var(--Base-400);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.line {
+  width: 100%;
+  background: var(--Base-200);
+  height: 1px;
+}
+.marketCap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  gap: 15px;
+}
+.tokenDistribution {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px 50px;
+  max-width: 330px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.distributionItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.distributionDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+.chartAndLegend {
+  display: flex;
+  align-items: center;
+}
+.tokenChart {
+  display: flex;
+  justify-content: center;
+}
+
+.lockInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  align-items: center;
+  padding: 15px 0;
+}
+.date {
+  padding: 15px 0;
+  padding-bottom: 0px;
+}
+@media only screen and (max-width: 520px) {
+  .chartAndLegend {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .tokenDistribution {
+    gap: 10px 30px;
+
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .tokenContainer {
+    padding: 12px 10px;
+  }
+  .lockInfo,
+  .marketCap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

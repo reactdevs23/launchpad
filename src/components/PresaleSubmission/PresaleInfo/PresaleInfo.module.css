@@ -1,0 +1,41 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wrapper {
+  border-radius: 12px;
+  border: 1px solid var(--Base-200);
+  background: var(--Base-400);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.mainWrapper .readMore,
+.mainWrapper .lockYourTeam {
+  padding: 8px 0;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    padding: 12px;
+  }
+  .buttonContainer .button {
+    font-size: 14px;
+    padding: 14px 12px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 366px) {
+  .dexListingRateInfo {
+    font-size: 10.5px;
+  }
+}

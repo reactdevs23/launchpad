@@ -1,0 +1,30 @@
+.rewardBox {
+  border-radius: 20px;
+  border: 1px solid var(--Base-300);
+  background: var(--Base-400);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--Base-300);
+}
+
+.list:last-child {
+  border: none;
+}
+@media only screen and (max-width: 991px) {
+  .rewardBox {
+    padding: 12px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .rewardBox {
+    padding: 12px 10px;
+  }
+}

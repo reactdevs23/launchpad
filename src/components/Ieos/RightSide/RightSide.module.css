@@ -1,0 +1,75 @@
+.content {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.networkConnect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid var(--Base-300);
+  background: var(--Base-400);
+  border-radius: 12px;
+  padding: 8px 8px 8px 13px;
+}
+.text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+
+  color: #ffffff;
+  padding-left: 15px;
+}
+.connectButton {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  color: #fff;
+
+  background: #c08908;
+  border: 1px solid rgba(237, 187, 70, 0.15);
+  padding: 0.6rem 1rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 145%;
+
+  color: #ffffff;
+}
+.bnb {
+  width: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .content {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .text {
+    padding-left: 5px;
+    font-size: 12px;
+  }
+  .connectButton {
+    font-size: 12px;
+    padding: 0.6rem 0.6rem;
+  }
+}

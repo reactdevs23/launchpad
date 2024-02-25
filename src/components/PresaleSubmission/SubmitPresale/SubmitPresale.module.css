@@ -1,0 +1,38 @@
+.wrapper {
+  border-radius: 12px;
+  border: 1px solid var(--Base-200);
+  background: var(--Base-400);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.buttonContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+}
+.buttonContainer .confirmButton {
+  width: 100%;
+}
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    padding: 12px;
+  }
+  .buttonContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .buttonContainer .button {
+    width: 100%;
+  }
+  .buttonContainer .button {
+    font-size: 14px;
+    padding: 14px 12px;
+    height: auto;
+  }
+}

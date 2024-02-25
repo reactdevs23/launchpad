@@ -1,0 +1,26 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 472px;
+  gap: 15px;
+  padding-top: 140px;
+}
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    max-width: 800px;
+
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    padding-top: 40px;
+  }
+}

@@ -1,0 +1,19 @@
+.slick-dots li button:before {
+  color: var(--Base-200) !important;
+  font-size: 20px; /* Change this to the color you want for inactive dots */
+}
+
+/* Active dot color */
+.slick-dots li.slick-active button:before {
+  color: var(
+    --Primary-Default
+  ) !important; /* Change this to the color you want for active dots */
+}
+.slick-dots {
+  bottom: -40px !important;
+}
+@media only screen and (max-width: 520px) {
+  .slick-dots li button:before {
+    font-size: 16px; /* Change this to the color you want for inactive dots */
+  }
+}

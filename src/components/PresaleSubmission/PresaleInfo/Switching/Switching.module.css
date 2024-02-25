@@ -1,0 +1,16 @@
+.spaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  border-bottom: 1px solid var(--Base-200);
+  padding-bottom: 18px;
+}
+.last {
+  border: none;
+  padding-bottom: 0;
+}
+.first {
+  border-top: 1px solid var(--Base-200);
+  padding-top: 18px;
+}

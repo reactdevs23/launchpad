@@ -1,0 +1,67 @@
+.presaleContainer {
+  border-radius: 20px;
+  border: 1px solid var(--Base-300);
+  background: var(--Base-400);
+  padding: 18px;
+}
+
+.listItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 11.2px 0px;
+  border-bottom: 1px solid var(--Base-300);
+}
+.header {
+  align-items: flex-start;
+}
+
+.listItem:last-child {
+  border: none;
+}
+.value {
+  color: #2f2f37;
+  font-weight: 500;
+  font-size: 16px;
+}
+.address {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 135%;
+  color: #000000;
+  word-break: break-all;
+  text-align: right;
+}
+
+@media only screen and (max-width: 991px) {
+  .presaleContainer {
+    padding: 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .listItemContainer {
+    padding: 12px 0px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .address {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .value {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .listItem {
+    font-size: 12px;
+  }
+  .value {
+    font-size: 12px;
+  }
+}
