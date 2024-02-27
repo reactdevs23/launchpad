@@ -4,8 +4,8 @@ import { AiOutlineAlignRight } from "react-icons/ai";
 import classes from "./Navbar.module.css";
 
 import { Link } from "react-router-dom";
-import { logo } from "../../assets";
-import Button from "../common/Button/Button";
+import { logo } from "../../../../secondbrandlogo/src/assets";
+import Button from "../../../../secondbrandlogo/src/components/common/Button/Button";
 
 const Navbar = () => {
   const navItems = [

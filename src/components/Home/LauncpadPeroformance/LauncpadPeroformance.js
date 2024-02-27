@@ -43,7 +43,7 @@ const LauncpadPeroformance = () => {
       </div>
       <div className={classes.right}>
         <div className={classes.headingContainer}>
-          <SectionHeading mobileCenter>
+          <SectionHeading mobileCenter left>
             DA Launchpad <Highlight>Performances</Highlight>
           </SectionHeading>
           <Text base100 lg mobileCenter>
