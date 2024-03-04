@@ -5,7 +5,7 @@ import classes from "./WhatCustomerSaying.module.css";
 import SectionHeading from "../../common/SectionHeading/SectionHeading";
 import Highlight from "../../common/Highlight/Highlight";
 import Text from "../../common/Text/Text";
-import { avater } from "../../../assets";
+import { avater } from "../../../asset";
 
 import { GiRoundStar } from "react-icons/gi";
 import Slider from "react-slick";
