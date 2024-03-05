@@ -12,7 +12,7 @@ import PresaleInfo from "../../components/PresaleSubmission/PresaleInfo/PresaleI
 import PresaleInfoWarningContainer from "../../components/PresaleSubmission/PresaleInfo/WarningContainer/WarningContainer";
 
 const PresaleSubmission = () => {
-  const [step, setStep] = useState(2);
+  const [step, setStep] = useState(1);
 
   return (
     <div className={clsx(classes.mainWrapper, "paddingTop", "container")}>
